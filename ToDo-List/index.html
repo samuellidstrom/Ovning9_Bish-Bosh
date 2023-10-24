@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo-List</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1>ToDo-List</h1>
+                    <!-- <h2>when shopping is..</h2> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE START HERE -->
+    <div class="container pagelayout">
+        <div class="row">
+
+            <div class="col">
+                <div class="pagesection mx-sm-0 mx-lg-5">
+                    <p>Skriv in vad du vill lägga till i listan och klicka på
+                        knappen för att lägga till varan.</p>
+                    <p>När du plockat din vara kan du klicka på den så
+                        kommer den strykas över. (Hann inte så långt...
+                        Men det går att klocka på varorna och få respons i konsolen)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+
+                <div class="pagesection mx-sm-0 mx-lg-5">
+
+                    <form id="userInput">
+                        <p>Lägg till vara:
+                            <input type="text" id="inputItem" placeholder="Lägg till vara">
+                        </p>
+                        <button id="btnAddToList">Lägg till i lista</button>
+                        
+                    </form>
+                    <div class="pagesection mx-sm-0 mx-lg-5">
+
+                        
+                        <!-- <div id="textTheList" class="listMargin"></div> -->
+                        <div id="textTheList" class="listMargin"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+
+        <p>© 2023 Samuel Lidström</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    
+    
+    
+    
+    
+    
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>
