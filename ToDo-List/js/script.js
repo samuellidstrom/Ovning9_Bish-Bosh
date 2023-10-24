@@ -30,7 +30,7 @@ form['inputItem'].addEventListener('change', function(e){
 
  textTheList.addEventListener('click', function(e){
    if (event.target.tagName === 'LI'){
-      console.log('Du klickade på' + event.target.textContent);      
+      console.log('Du klickade på ' + event.target.textContent);      
    }
 
 
